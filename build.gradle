@@ -52,16 +52,12 @@ mainClassName = "name.yumao.ffxiv.chn.FFXIVPatchMain"
 jar {
 	manifest {
 		attributes(
-				'Main-Class': 'org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader',
-				'Class-Path': './ ' + configurations.compile.collect { it.getName() }.join(' '),
-				'Rsrc-Main-Class': mainClassName,
+				'Main-Class': mainClassName
 		)
 	}
 	from {
-		// zip compile jar
-		configurations.compile.collect { it }
 		// zip extra compile jar
-//		configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+		configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
 	}
 }
 
