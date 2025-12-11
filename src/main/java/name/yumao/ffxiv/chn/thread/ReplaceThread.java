@@ -57,7 +57,7 @@ public class ReplaceThread implements Runnable {
 
 		try {
 			this.textPatchPanel.replaceButton.setEnabled(false);
-			PercentPanel percentPanel = new PercentPanel("漢化進度");
+			PercentPanel percentPanel = new PercentPanel("汉化进度");
 			if (this.rfont.equals("1")) {
 				new ReplaceFont(this.resourceFolder + File.separator + "000000.win32.index",
 						"resource" + File.separator + "font", percentPanel).replace();
@@ -84,12 +84,12 @@ public class ReplaceThread implements Runnable {
 			} else {
 				log.info("Skip replacing text.");
 			}
-			JOptionPane.showMessageDialog(null, "<html><body>漢化完畢</body></html>", "提示", -1);
+			JOptionPane.showMessageDialog(null, "<html><body>汉化完毕</body></html>", "提示", -1);
 			log.info("Patch finished.");
 			percentPanel.dispose();
 			this.textPatchPanel.replaceButton.setEnabled(true);
 		} catch (Exception exception) {
-			JOptionPane.showMessageDialog(null, "<html><body>程式錯誤！</body></html>", "漢化錯誤", 0);
+			JOptionPane.showMessageDialog(null, "<html><body>程序错误！</body></html>", "汉化错误", 0);
 			log.severe("Patch failed!");
 			log.log(Level.SEVERE, "Error Messages:", exception);
 			exception.printStackTrace();
