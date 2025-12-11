@@ -22,13 +22,11 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.SwingConstants;
 import javax.swing.border.Border;
 import javax.swing.border.MatteBorder;
 // import name.yumao.ffxiv.chn.model.TeemoUpdateVo;
 import name.yumao.ffxiv.chn.thread.ReplaceThread;
 import name.yumao.ffxiv.chn.thread.RollbackThread;
-import name.yumao.ffxiv.chn.util.EXDFUtil;
 import name.yumao.ffxiv.chn.util.FileUtil;
 import name.yumao.ffxiv.chn.util.HexUtils;
 // import name.yumao.ffxiv.chn.util.UpdateUtil;
@@ -41,14 +39,12 @@ public class TextPatchPanel extends JFrame implements ActionListener {
 	private static String title = "PatchTool";
 	private JLabel title_lable = new JLabel(title);
 	private Dimension dimension;
-	private JButton bootButton = new JButton("快速启动");
 	private JButton configButton = new JButton("设置");
 	private JButton closeButton = new JButton("x");
 	private JPanel titlePanel = new JPanel();
 	private JPanel bodyPanel = new JPanel();
 	public JButton replaceButton = new JButton("汉化");
 	public JButton rollbackButton = new JButton("还原");
-	private JLabel menuText = new JLabel("by GPointChen", SwingConstants.RIGHT);
 
 	public TextPatchPanel() {
 		super(title);

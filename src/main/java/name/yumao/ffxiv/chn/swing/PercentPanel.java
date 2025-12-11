@@ -27,7 +27,7 @@ public class PercentPanel extends JFrame implements ActionListener {
 	private JButton closeButton = new JButton("x");
 	private JPanel titlePanel = new JPanel();
 	private JPanel bodyPanel = new JPanel();
-	private JPanel announcePanel = new JPanel();
+	// private JPanel announcePanel = new JPanel(); // not used
 	private JPanel percentBackPanel = new JPanel();
 	private JPanel percentFrontPanel = new JPanel();
 	private JLabel progressText = new JLabel();
