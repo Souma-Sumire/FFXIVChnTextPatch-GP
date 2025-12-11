@@ -147,6 +147,9 @@ public class ConfigApplicationPanel extends JFrame implements ActionListener {
 		this.fLangLableVal.addItem("德文");
 		this.fLangLableVal.addItem("法文");
 		this.fLangLableVal.addItem("简体中文");
+		this.fLangLableVal.addItem("繁体中文(CHT)");
+		this.fLangLableVal.addItem("繁体中文(TC)");
+		this.fLangLableVal.addItem("韩文");
 		this.fLangLableVal.setBounds(100, 70, 160, 23);
 		this.fLangLableVal.setFont(new Font("Microsoft Yahei", 1, 13));
 		this.fLangLableVal.setForeground(new Color(110, 110, 110));
@@ -165,6 +168,9 @@ public class ConfigApplicationPanel extends JFrame implements ActionListener {
 		this.sLangLableVal.addItem("德文");
 		this.sLangLableVal.addItem("法文");
 		this.sLangLableVal.addItem("简体中文");
+		this.sLangLableVal.addItem("繁体中文(CHT)");
+		this.sLangLableVal.addItem("韩文");
+		this.sLangLableVal.addItem("繁体中文(TC)");
 		this.sLangLableVal.setBounds(100, 100, 160, 23);
 		this.sLangLableVal.setFont(new Font("Microsoft Yahei", 1, 13));
 		this.sLangLableVal.setForeground(new Color(110, 110, 110));
