@@ -146,7 +146,7 @@ public class ReplaceEXDF {
 						continue;
 					}
 				}
-				percentPanel.progressShow("正在替換文本：", replaceFile);
+				percentPanel.progressShow("正在替换文本：", replaceFile);
 				log.info("Read :    " + replaceFile);
 				// 準備好檔案目錄名和檔案名
 				String filePatch = replaceFile.substring(0, replaceFile.lastIndexOf("/"));

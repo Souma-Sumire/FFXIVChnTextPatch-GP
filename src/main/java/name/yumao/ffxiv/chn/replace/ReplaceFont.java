@@ -49,7 +49,7 @@ public class ReplaceFont {
 			for (File resourceFile : resourceFolderFile.listFiles()) {
 				percentPanel.percentShow((double) (++fileCount) / (double) fontSize);
 				if (resourceFile.isFile()) {
-					percentPanel.progressShow("正在替換字體：", resourceFile.getName());
+					percentPanel.progressShow("正在替换字体：", resourceFile.getName());
 					log.info("Read :    " + resourceFile.getName());
 					// read file
 					LERandomAccessFile lera = new LERandomAccessFile(resourceFile, "r");
