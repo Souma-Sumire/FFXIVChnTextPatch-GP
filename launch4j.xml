@@ -20,15 +20,16 @@
     <requires64Bit>false</requires64Bit>
     <minVersion>1.8.0</minVersion>
     <maxVersion></maxVersion>
+    <opt>-Dfile.encoding=UTF-8</opt>
   </jre>
   <versionInfo>
-    <fileVersion>1.1.0.0</fileVersion>
+    <fileVersion>1.1.0.1</fileVersion>
     <txtFileVersion>1.1.0.0</txtFileVersion>
     <fileDescription>FFXIV Chinese Text Patcher</fileDescription>
     <copyright>Souma</copyright>
     <productVersion>1.0.0.0</productVersion>
     <txtProductVersion>1.1.0.0</txtProductVersion>
-    <productName>FFXIVChnTextPatch-GP</productName>
+    <productName>FFXIVChnTextPatch-SM</productName>
     <companyName>Souma</companyName>
     <internalName>FFXIVChnTextPatch-SM</internalName>
     <originalFilename>FFXIVChnTextPatch-SM.exe</originalFilename>
