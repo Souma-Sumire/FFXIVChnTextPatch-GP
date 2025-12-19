@@ -148,8 +148,8 @@ public class ConfigApplicationPanel extends JFrame implements ActionListener {
 		this.fLangLableVal.addItem("法文");
 		this.fLangLableVal.addItem("简体中文");
 		this.fLangLableVal.addItem("繁体中文(CHT)");
-		this.fLangLableVal.addItem("繁体中文(TC)");
 		this.fLangLableVal.addItem("韩文");
+		this.fLangLableVal.addItem("繁体中文(TC)");
 		this.fLangLableVal.setBounds(100, 70, 160, 23);
 		this.fLangLableVal.setFont(new Font("Microsoft Yahei", 1, 13));
 		this.fLangLableVal.setForeground(new Color(110, 110, 110));
