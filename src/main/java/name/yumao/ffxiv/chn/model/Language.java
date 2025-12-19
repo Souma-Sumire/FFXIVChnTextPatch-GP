@@ -7,7 +7,7 @@ public enum Language {
 	FR("法文", "FR", "fr", "3"),
 	CHS("简体中文", "CHS", "chs", "4"),
 	CHT("繁体中文(CHT)", "CHT", "cht", "5"),
-	KO("韩语", "KO", "ko", "6"),
+	KO("韩文", "KO", "ko", "6"),
 	TC("繁体中文(TC)", "TC", "tc", "7"),
 	CSV("CSV", "CSV", "csv", "8");
 
