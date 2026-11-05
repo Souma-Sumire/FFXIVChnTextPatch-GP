@@ -4,7 +4,7 @@ offset,0,4
 int32,str,str
 0,TEXT_AKTKBA121_04104_SEQ_00,蛇巢司令部的白蛇守護人有急事要告訴冒險者。
 1,TEXT_AKTKBA121_04104_SEQ_01,和白蛇守護人進行了交談。格萊普尼爾在中央林區再度現身。在中央林區酸模避風港的<hex:02280CFF05>EObj<hex:F61EB2570103>張望，和嘉恩·艾·神納匯合。
-2,TEXT_AKTKBA121_04104_SEQ_02,遭遇異形野獸襲擊，討伐了異形野獸。在<hex:02280CFF05>EObj<hex:F61EB2520103>等待，和嘉恩·艾·神納匯合。
+2,TEXT_AKTKBA121_04104_SEQ_02,遭遇異形野獸襲擊，討伐了異形野獸。調查<hex:02280CFF05>EObj<hex:F61EB2520103>。
 3,TEXT_AKTKBA121_04104_SEQ_03,看樣子，鬼哭隊隊員在與格萊普尼爾的戰鬥中負傷後，陷入絕望而獸化了。在附近的<hex:02280CFF05>EObj<hex:F61EB2540103>張望，討伐出現的<hex:02280FFF09>BNpcName<hex:F22B1C0103>。
 4,TEXT_AKTKBA121_04104_SEQ_04,討伐了附近的異形野獸。在<hex:02280CFF05>EObj<hex:F61EB2550103>等待，和嘉恩·艾·神納匯合。
 5,TEXT_AKTKBA121_04104_SEQ_05,嘉恩·艾·神納試著和森林大元靈對話，但以失敗告終。格萊普尼爾突然現身，擊昏了嘉恩·艾。冒險者通過超越之力看到了格萊普尼爾的過去。格萊普尼爾離開後，白蛇守護人帶嘉恩·艾·神納回格里達尼亞接受治療。和蛇巢司令部的白蛇守護人談談。
@@ -27,7 +27,7 @@ int32,str,str
 22,TEXT_AKTKBA121_04104_SEQ_22,
 23,TEXT_AKTKBA121_04104_SEQ_23,
 24,TEXT_AKTKBA121_04104_TODO_00,在酸模避風港的<hex:02280CFF05>EObj<hex:F61EB2570103>張望
-25,TEXT_AKTKBA121_04104_TODO_01,在<hex:02280CFF05>EObj<hex:F61EB2520103>等待
+25,TEXT_AKTKBA121_04104_TODO_01,調查<hex:02280CFF05>EObj<hex:F61EB2520103>
 26,TEXT_AKTKBA121_04104_TODO_02,在<hex:02280CFF05>EObj<hex:F61EB2540103>張望 討伐出現的<hex:02280FFF09>BNpcName<hex:F22B1C0103>
 27,TEXT_AKTKBA121_04104_TODO_03,在<hex:02280CFF05>EObj<hex:F61EB2550103>等待
 28,TEXT_AKTKBA121_04104_TODO_04,和蛇巢司令部的白蛇守護人對話

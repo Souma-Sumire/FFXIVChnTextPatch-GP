@@ -1,5 +1,5 @@
-﻿key,2,7
-#,GridText,Text
+﻿key,2,9
+#,GridText,
 offset,4,0
 int32,str,str
 0,,無
@@ -80,3 +80,5 @@ int32,str,str
 75,,◆ 生日
 76,,◆ 乙太
 77,,◆ 顯示屏
+78,,◆ 探索觸控板
+79,,◆ 宇宙好運道
